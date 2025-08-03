@@ -4,8 +4,8 @@
 	"modules-left": ["custom/launcher",
     "cpu","memory",
     "disk",
+    "temperature",
     "hyprland/workspaces",
-    "temperature"
     ],
 
 	"modules-center": ["clock"
@@ -46,6 +46,11 @@
         "path": "/"
     },
 
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "  {temperatureC}°C"
+    },
+
     "hyprland/workspaces": {
         "format": "{icon}",
         "tooltip": false,
@@ -55,15 +60,10 @@
             "3": "",
             "4": "",
             "5": "",
-            "urgent": "",
-            "active": "",
+            "urgent": "",
+            "active": "",
             "default": ""
         }
-    },
-
-      "temperature": {
-          "critical-threshold": 80,
-          "format": " {temperatureC}°C"
     },
 
     "clock": {
@@ -101,9 +101,9 @@
     },
 
     "network": {
-        "format-wifi": " ",
-        "format-ethernet": " ",
-        "format-disconnected": " ",
+        "format-wifi": "  ",
+        "format-ethernet": "  ",
+        "format-disconnected": "  ",
         "tooltip-format": "{essid} ({signalStrength}%)"
     },
 

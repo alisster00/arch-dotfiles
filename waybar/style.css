@@ -19,7 +19,7 @@ window#waybar {
     color: #b1c7fc;
 }
 
-#custom-launcher, #cpu, #memory, #hyprland-workspaces,
+#custom-launcher, #cpu, #memory, #temperature, #hyprland-workspaces,
 #clock,
 #tray, #network, #blacklight, #custom-micro,
 #pulseaudio, #battery, #custom-power {
@@ -42,7 +42,7 @@ window#waybar {
     background: transparent;
     color: #8595b8;
 }
-
+/*
 #custom-launcher {
     padding-left: 12px;
 }
@@ -63,50 +63,17 @@ window#waybar {
     border-style: solid;
     border-color: #88aab8;
 }
-
-#custom-power {
-    font-size: 15px;
-    margin-top: 10px;
-    margin-left: 8px;
-    margin-right: 17px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-bottom: 0px;
-    border-radius: 10px;
-    transition: none;
-    background: #243640; 
-    color: #c1d8dc;
-    border-bottom: 3px;
-    border-style: solid;
-    border-color: #88aab8;
-    transition: 0.3s;
-}
-#custom-power:hover {
+#custom-power:hover, #custom-launcher:hover {
     background: #88aab8;
     color: #243640;
     border-color: #88aab8;
 
 }
-#workspaces {
-    margin-top: 10px;
-    margin-left: 8px;
-    padding-right: 4px;
-    background: #243640; 
-    border-bottom: 3px;
-    border-style: solid;
-    border-color: #88aab8;
-    color: #c1d8dc;
-    transition: 0.3s;
-}
 
-#workspaces button {
-    color: #c1d8dc;
-    transition: 0.3s;
-}
 #workspaces button:hover {
     background: transparent;
     color: transparent;
     box-shadow: none;
     text-shadow: none;
 }
-
+*/
